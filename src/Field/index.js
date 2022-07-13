@@ -11,6 +11,7 @@ import CodeEditor from "./CodeEditor";
 import ReactSelect from "./ReactSelect";
 import FileUploader from "./FileUploader";
 import Autocomplete from "./Autocomplete";
+import Images from "./Images";
 
 ["text", "email", "password", "number", "url", "date"].map((type) =>
   registerField(type, Text)
@@ -26,3 +27,4 @@ registerField("code-editor", CodeEditor);
 registerField("react-select", ReactSelect);
 registerField("autocomplete", Autocomplete);
 registerField("file-uploader", FileUploader);
+registerField("images", Images);
