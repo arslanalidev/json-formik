@@ -11,6 +11,7 @@ import CodeEditor from "./CodeEditor";
 import ReactSelect from "./ReactSelect";
 import FileUploader from "./FileUploader";
 import Autocomplete from "./Autocomplete";
+import Select from "./Select";
 import Images from "./Images";
 
 ["text", "email", "password", "number", "url", "date"].map((type) =>
@@ -25,6 +26,7 @@ registerField("checkbox", Checkbox);
 registerField("inner-text", InnerText);
 registerField("code-editor", CodeEditor);
 registerField("react-select", ReactSelect);
+registerField("select", Select);
 registerField("autocomplete", Autocomplete);
 registerField("file-uploader", FileUploader);
 registerField("images", Images);
